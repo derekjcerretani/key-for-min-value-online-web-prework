@@ -8,10 +8,10 @@ def key_for_min_value(name_hash)
     if min_value == nil
       min_value = v
       min_key = k
-      binding.pry
     elsif min_value > v
       min_value = v
       min_key = k
+      binding.pry
     end
   end
   min_key
